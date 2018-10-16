@@ -1,5 +1,8 @@
+.timer-holder{
+	margin: -0.9em 0 0;
+}
 .numbers-list{
-	margin: 0 0 45px;
+	margin: 0 -0.5em 40px;
 	padding: 0;
 	list-style: none;
 	display: -webkit-flex;
@@ -13,7 +16,8 @@
 .numbers-list li{
 	font-size: 18px;
 	line-height: 1;
-	padding: 0;
+	padding: 0 0.5em 1em;
+	margin: 0;
 }
 .numbers-list li>a{
 	border-radius: 50%;
@@ -116,3 +120,7 @@
 #wrapper.status-check .table-wrapper table th{
 	padding-left: 0;
 }
+
+/*@media screen and (max-width: 767px) {
+	
+}*/

@@ -14,7 +14,6 @@
 	<meta name="msapplication-starturl" content="/">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link href="https://fonts.googleapis.com/css?family=K2D:400,500,700" rel="stylesheet">
-
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css">
 	<noscript><link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/noscript.css"></noscript>

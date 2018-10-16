@@ -5,23 +5,24 @@
 		<p>We need your details so that we can verify and contact you if you win. Your details will be kept private.</p>
 		<div class="style1">
 			<section>
-				<form method="post" action="#">	
+				<form method="post">	
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Full Name</label>
-							<input type="text" name="name" id="name">
+							<input type="text" name="fname" id="fname">
+							<input type="hidden" name="lnum" value=""0123>
 						</div>
 						<div class="field half">
 							<label for="phone">Mobile Number</label>
-							<input type="text" name="phone" id="phone">
+							<input type="text" name="uphone" id="uphone">
 						</div>
 						<div class="field half">
 							<label for="email">Email</label>
-							<input type="text" name="email" id="email">
+							<input type="text" name="uemail" id="uemail">
 						</div>
 					</div>
 					<ul class="actions">
-						<li><a href="#three" class="button scrolly">Next Step</a></li>
+						<li><button type="submit" name="save" class="button scrolly">Next Step</button></li>
 					</ul>
 				</form>
 			</section>
