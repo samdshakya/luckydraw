@@ -5,12 +5,12 @@
 		<p>We need your details so that we can verify and contact you if you win. Your details will be kept private.</p>
 		<div class="style1">
 			<section>
-				<form method="post">	
+				<form method="post" action="<?php echo base_url();?>index.php/insertctrl">	
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Full Name</label>
 							<input type="text" name="fname" id="fname">
-							<input type="hidden" name="lnum" value=""0123>
+							<input type="hidden" name="lnum" value="0123">
 						</div>
 						<div class="field half">
 							<label for="phone">Mobile Number</label>

@@ -24,22 +24,19 @@ class InsertCtrl extends CI_Controller {
 		//Validating Address Field
 		//$this->form_validation->set_rules('daddress', 'Address', 'required|min_length[10]|max_length[50]');
 
-		if ($this->form_validation->run() == FALSE) {
+		//if ($this->form_validation->run() == FALSE) {
 			//$this->load->view('insert_view');
-		} else {
+		//} else {
 			//Setting values for tabel columns
-			$data = array(
-				'user_fullname' => $this->input->post('fname'),
-				'user_phone' => $this->input->post('uphone'),
-				'user_email' => $this->input->post('uemail'),
-				'user_luckynumber' => $this->input->post('lnum')
-			);
-			//Transfering data to Model
-			$this->insert_model->form_insert($data);
-			$data['message'] = 'Data Inserted Successfully';
-			Loading View
-			$this->load->view('insert_view', $data);
-		}
+		$data = array(
+			'user_fullname' => $this->input->post('fname'),
+			'user_phone' => $this->input->post('uphone'),
+			'user_email' => $this->input->post('uemail'),
+			'user_luckynumber' => $this->input->post('lnum')
+		);
+		//Transfering data to Model
+		$this->InsertModel->form_insert($data);
+		// $data['message'] = 'Data Inserted Successfully';
 	}
 
 }
